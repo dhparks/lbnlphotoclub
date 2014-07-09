@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>Tiebreaker</title>
+    <link rel="stylesheet" type="text/css" href="static/css/winners.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/pins.css" />
+    <script src="static/js/jquery-2.0.3.min.js"></script>
+</head>
+<body>
+
+<div id="container">
+    <div class="rowContainer">
+        <div class="month">Tiebreaker for {{month}} {{year}}</div>
+        <br>
+        {% for photo in winners %}
+        <div class="pin" vote=0>
+            <div class="vote">{{photo.votes}}</div>
+            <img src="{{photo.url}}"/></a>
+            <br>
+        </div>
+        {% endfor %}
+        <button id="sendvotes" type="button">Add votes</button>
+    </div>
+    
+</div>
+
+<script src="static/js/tiebreaking.js"></script>
+
+</body>
+</html>

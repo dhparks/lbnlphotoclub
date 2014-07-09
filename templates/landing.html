@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>LBNL Photo Club Voting App</title>
+    <link rel=stylesheet type=text/css href="static/css/landing.css">
+</head>
+<body>
+
+    <div id="container">
+    <a href="winners">
+        <div id="oldWinners" class="b">
+            <div class="textHolder">View<br>old<br>winners</div>
+        </div>
+    </a>
+    {% if voting %}
+    <a href="voting">
+    <div id="newVoting"  class="b">
+        <div class="textHolder">Vote<br>on<br>photos</div>
+    </div>
+    </a>
+    {% else %}
+    <div id="votingClosed"  class="b">
+        <div class="textHolder">Voting<br>is<br>closed</div>
+    </a>
+    {% endif %}
+    </div>
+
+</body>
+</html>

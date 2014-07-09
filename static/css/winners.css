@@ -1,0 +1,49 @@
+
+/*from http://cssdeck.com/labs/cj76ienz*/
+
+#container {
+	width: 90%;
+	margin: auto;
+}
+
+.rowContainer {text-align:center;
+		border: 2px solid black;
+		border-radius:5px;
+		margin: 10px 10px 10px 10px;
+		max-width:90%}
+		
+.outerContainer {margin: auto}
+
+.tile {
+	display: inline-block;
+	background: #FEFEFE;
+	border: 1px solid #999999;
+	border-radius:4px;
+	box-shadow: 0 2px 3px rgba(34, 25, 25, 0.7);
+	margin: 0 2px 10px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	padding: 5px;
+	padding-bottom: 5px;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+}
+
+.tile img {
+	max-width: 100%;
+}
+
+.link {
+	text-align:center;
+	font-size:x-small;
+}
+
+.vote {text-align:center;}
+
+.month {display:inline-block;
+		padding:5px;
+		font-weight:bold;
+		font-size:large;}
+
+}

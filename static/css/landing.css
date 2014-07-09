@@ -1,0 +1,24 @@
+
+/*from http://cssdeck.com/labs/cj76ienz*/
+
+#container {
+	width: 90%;
+	margin: 100px auto;
+	text-align:center;
+}
+
+.b {
+	width:200px;
+	height:200px;
+	display:inline-block;
+	border:solid black 2px;
+	border-radius:6px;
+	text-align:center;
+	background-color:blue;
+	font-size: x-large;
+}
+
+#oldWinners {background-color:green}
+#newVoting {background-color:orange}
+#votingClosed {background-color:grey}
+.textHolder {line-height:30px;margin-top:50px;}
